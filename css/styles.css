@@ -90,4 +90,13 @@ footer a {
 	transform: rotate(0deg);
 }
 
+/****** Logo *********/
+.title-logo {
+	display: none;
+}
+.logo-mobile {
+	display: inline-block;
+	width: 60px;
+	margin: 25px 0 0 25px;
+}
 }
