@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--some meta data for search engine-->
+    <meta name="description" content="Ivan Silva - Front End Developer">
+    <meta name="keywords" content="Portfolio, nanodegree, udacity, frontend, web development, HTML, CSS, JS, JavaScript">
+    <meta name="author" content="Ivan Silva">
+
+    <title>Udacity Portfolio Website</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/Leopard-icon.ico">
+    <link rel="shortcut icon" href="images/Leopard-icon-32.png" sizes="16x16 32x32 48x48" type="image/png">
+    <link rel="icon" href="images/Leopard-icon-128.png" sizes="128x128" type="image/png">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+
+    <!--Bootstrap and customised style-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <div class="background-triangle"></div>
+    <header>
+        <div class="row">
+            <!--Udacity Logo-->
+            <div class="col-md-6 col-sm-4 col-xs-2">
+                <img class="title-logo" src="https://eu.udacity.com/assets/iridium/images/core/header/udacity-wordmark-light.svg" alt="Udacity">
+            </div>
+            <!--Text on the Right   -->
+            <div class="title-text col-md-6 col-sm-8 col-xs-10 text-right">
+                <h1>Ivan Silva</h1>
+                <h4 class="text-uppercase">Front End Developer</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+    </header>
+
+    <!--Cover image-->
+    <div class="row">
+        <div class="col-md-12">
+            <img class="img-responsive" src="images/header.jpeg" alt="Lines of Code" />
+        </div>
+    </div>
+
+    <section class="row">
+        <header class="col-md-12 section">
+            <h2 class="title-featured">Featured Work</h2>
+        </header>
+
+        <div class="col-md-4">
+            <a href="#" target="_blank"><img class="img-responsive" src="https://s3.amazonaws.com/video.udacity-data.com/topher/2017/September/59ca937e_1-10-project-animal-trading-cards2x/1-10-project-animal-trading-cards2x.jpg" alt="Udacity - Animal Trading Cards"></a>
+            <h3 class="title">Animal Trading Cards</h3>
+        </div>
+
+        <div class="col-md-4">
+            <a href="#" target="_blank"><img class="img-responsive" src="https://s3.amazonaws.com/video.udacity-data.com/topher/2017/October/59ea8f8d_3-15-project-memory-game2x/3-15-project-memory-game2x.jpg" alt="Udacity - Memory Game"></a>
+            <h3 class="title">Memory Game</h3>
+        </div>
+
+        <div class="col-md-4">
+            <a href="#" target="_blank"><img class="img-responsive" src="https://s3.amazonaws.com/video.udacity-data.com/topher/2017/September/59ce9a35_4-14-project-classic-arcade-game-clone-copy-32x/4-14-project-classic-arcade-game-clone-copy-32x.jpg" alt="Udacity - Classic Arcade Game Clone"></a>
+            <h3 class="title">Arcade Game Clone</h3>
+        </div>
+
+    </section>
+</div>
+</body>
+    <!--footer-->
+    <footer>
+        <p>Copyright © <span id="year"></span> - <a href="https://github.com/Nivax07" target="_blank">Ivan Silva</a>
+        </p>
+    </footer>
+
+<script>
+    $("#year").text((new Date).getFullYear());
+</script>
+</html>

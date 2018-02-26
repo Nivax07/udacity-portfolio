@@ -1,0 +1,93 @@
+
+/*********** Body **********/
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #5e5e5e;
+    font-weight: 300;
+    overflow-x: hidden;
+    
+}
+
+/********* Background ***********/
+.background-triangle {
+	content:"";
+	top:-400px;
+	left:-400px;
+	width: 2000px;
+	height: 800px;
+	position: absolute;
+	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+	transform: rotate(-15deg);
+}
+
+/********** Header Section **********/
+
+.title-logo {
+	margin-top: 40px;
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	vertical-align: middle;
+}
+.logo-mobile {
+	display: none;
+}
+.title-text {
+	color: white;
+}
+.title-text h1 {
+	letter-spacing: 5px;
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/********** Featured Image *********/
+.img-responsive {
+	border-radius: 8px;
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+}
+
+hr {
+    display: block;
+    line-height: 2px;
+}
+
+/*********** Work ****************/
+.title-featured {
+	text-align: center;
+	margin: 50px 0;
+}
+.title {
+	text-align: center;
+	margin: 30px 0;
+}
+
+/******** Footer ***********/
+footer {
+	margin-top: 30px;
+	text-align: center;
+	width: 100%;
+	padding: 20px 0 10px 0;
+	color: white;
+	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+
+footer a {
+	color: white;
+}
+
+@media screen and (max-width: 980px) {
+/********* Background ***********/
+.background-triangle {
+	content:"";
+	top:0;
+	left:0;
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+	transform: rotate(0deg);
+}
+
+}
