@@ -31,8 +31,6 @@ body {
 }
 .logo-mobile {
 	display: none;
-	fill: #fff;
-	margin: 15px 0 0 20px;
 }
 .title-text {
 	color: white;
@@ -46,6 +44,7 @@ body {
 
 /********** Featured Image *********/
 .img-responsive {
+	width: 100%;
 	border-radius: 8px;
 	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
 }
@@ -62,7 +61,30 @@ hr {
 }
 .title {
 	text-align: center;
-	margin: 30px 0;
+	top: 10px;
+	padding: 20px 40px;
+	position: absolute;
+	color: white;
+	border-radius: 0 8px 8px 0;
+	font-weight: 700;
+	text-transform: lowercase;
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.4);
+	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+}
+.description {
+	text-align: center;
+	bottom: 10px;
+	margin-right: 15px;
+	width: 80%;
+	right: 0;
+	padding: 20px 10px;
+	position: absolute;
+	color: white;
+	border-radius: 8px 0 0 8px;
+	font-weight: 700;
+	text-transform: lowercase;
+	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.4);
+	background: #7d97ad;
 }
 
 /******** Footer ***********/
@@ -99,6 +121,6 @@ footer a {
 .logo-mobile {
 	display: inline-block;
 	fill: #fff;
-	margin: 15px 0 0 20px;
+	margin: 20px 0 0 20px;
 }
 }
