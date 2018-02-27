@@ -49,7 +49,6 @@ body {
 	border: 1px solid rgba(200,200,200,0.5);
 	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
 }
-
 hr {
     display: block;
     line-height: 2px;
@@ -65,7 +64,7 @@ hr {
 	text-align: center;
 	font-weight: 700;
 	font-size: 40px;
-	opacity: .1;
+	opacity: .2;
 	position: absolute;	
     margin: -98px;
     width: 100%;
@@ -104,7 +103,6 @@ hr {
 footer {
 	margin-top: 30px;
 	text-align: center;
-	width: 100%;
 	padding: 20px 0 10px 0;
 	color: white;
 	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);

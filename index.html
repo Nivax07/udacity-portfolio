@@ -12,6 +12,11 @@
 
     <title>Udacity Portfolio Website</title>
 
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/icon.ico">
+    <link rel="shortcut icon" href="images/icon-32.png" sizes="16x16 32x32 48x48" type="image/png">
+    <link rel="icon" href="images/icon-128.png" sizes="128x128" type="image/png">
+
     <!--Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
@@ -19,8 +24,6 @@
     <!--Bootstrap and customised style-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
 </head>
 
@@ -57,37 +60,41 @@
         </div>
     </div>
 
-    <section class="row">
+    <main class="row">
         <header class="col-md-12 section">
             <h2 class="title-featured">Featured Work</h2>
             <h2 class="title-featured-back">Featured Work</h2>
         </header>
 
-        <div class="col-md-4">
+        <article class="col-md-4">
             <a href="https://nivax07.github.io/udacityProject1/" target="_blank"><img class="img-responsive" src="https://s3.amazonaws.com/video.udacity-data.com/topher/2017/September/59ca937e_1-10-project-animal-trading-cards2x/1-10-project-animal-trading-cards2x.jpg" alt="Udacity - Animal Trading Cards"></a>
             <h3 class="title">Animal Trading Cards</h3>
             <p class="description">HTML and CSS to create a web based Animal Trading card.</p>
-        </div>
+        </article>
 
-        <div class="col-md-4">
+        <article class="col-md-4">
             <a href="#" target="_blank"><img class="img-responsive" src="https://s3.amazonaws.com/video.udacity-data.com/topher/2017/October/59ea8f8d_3-15-project-memory-game2x/3-15-project-memory-game2x.jpg" alt="Udacity - Memory Game"></a>
             <h3 class="title">Memory Game</h3>
             <p class="description">Classic memory game 'Concentration' using JavaScript.</p>
-        </div>
+        </article>
 
-        <div class="col-md-4">
+        <article class="col-md-4">
             <a href="#" target="_blank"><img class="img-responsive" src="https://s3.amazonaws.com/video.udacity-data.com/topher/2017/September/59ce9a35_4-14-project-classic-arcade-game-clone-copy-32x/4-14-project-classic-arcade-game-clone-copy-32x.jpg" alt="Udacity - Classic Arcade Game Clone"></a>
             <h3 class="title">Arcade Game Clone</h3>
             <p class="description">Recretion of the classic arcade game Frogger.</p>
-        </div>
+        </article>
 
-    </section>
+    </main>
 </div>
 <!-- Footer -->
-<footer>
-    <p>Copyright © <span id="year"></span> - <a href="https://github.com/Nivax07" target="_blank">Ivan Silva</a>
+<footer class="row">
+    <div class="container">
+        <p>Copyright © <span id="year"></span> - <a href="https://github.com/Nivax07" target="_blank">Ivan Silva</a>
     </p>
+    </div>
 </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
     $("#year").text((new Date).getFullYear());
 </script>
