@@ -1,4 +1,4 @@
-# Udacity Front-end Nonodegree - Project 2
+# Udacity Front-end Nanodegree - Project 2
 ## Build a Portfolio Website
 This project is the second from the Udacity Front-end Nanodegree Program.
 
