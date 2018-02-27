@@ -31,6 +31,8 @@ body {
 }
 .logo-mobile {
 	display: none;
+	fill: #fff;
+	margin: 15px 0 0 20px;
 }
 .title-text {
 	color: white;
@@ -97,6 +99,6 @@ footer a {
 .logo-mobile {
 	display: inline-block;
 	fill: #fff;
-	margin: 20px 0 0 20px;
+	margin: 15px 0 0 20px;
 }
 }
