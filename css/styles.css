@@ -65,7 +65,7 @@ hr {
 	text-align: center;
 	font-weight: 700;
 	font-size: 40px;
-	opacity: .25;
+	opacity: .2;
 	position: absolute;	
     margin: -98px;
     width: 100%;
@@ -140,6 +140,6 @@ footer a {
 	margin:30px 0;
 }
 .title-featured {
-	margin: 20px 0 40px 0;
+	margin: 40px 0;
 }
 }
