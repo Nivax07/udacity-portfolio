@@ -1,7 +1,7 @@
 
 /*********** Body **********/
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	color: #5e5e5e;
     font-weight: 300;
     overflow-x: hidden;
@@ -10,13 +10,13 @@ body {
 
 /********* Background ***********/
 .background-triangle {
-	content:"";
+	content: "";
 	top:-400px;
 	left:-400px;
 	width: 3000px;
 	height: 800px;
 	position: absolute;
-	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+	background: linear-gradient(to right, #00d2ff, #3a7bd5);
 	transform: rotate(-15deg);
 }
 
@@ -29,15 +29,18 @@ body {
 	height: 100%;
 	vertical-align: middle;
 }
+
 .logo-mobile {
 	display: none;
 }
+
 .title-text {
 	color: white;
 }
+
 .title-text h1 {
 	letter-spacing: 5px;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: "Maven Pro", sans-serif;
 	text-transform: uppercase;
 	font-weight: 600;
 }
@@ -49,6 +52,7 @@ body {
 	border: 1px solid rgba(200,200,200,0.5);
 	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
 }
+
 hr {
     display: block;
     line-height: 2px;
@@ -60,6 +64,7 @@ hr {
 	margin: 50px 0;
 	font-weight: 700;
 }
+
 .title-featured-back {
 	text-align: center;
 	font-weight: 700;
@@ -71,6 +76,7 @@ hr {
     margin-left: -18px;
 
 }
+
 .title {
 	text-align: center;
 	top: 10px;
@@ -81,8 +87,9 @@ hr {
 	font-weight: 700;
 	text-transform: lowercase;
 	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.4);
-	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
+	background: linear-gradient(to right, #00d2ff, #3a7bd5);
 }
+
 .description {
 	text-align: center;
 	bottom: 10px;
@@ -99,6 +106,7 @@ hr {
 	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.4);
 	background: #7d97ad;
 }
+
 /******** Social ***********/
 .social-buttons {
 	text-align: center;
@@ -107,11 +115,12 @@ hr {
 
 
 }
+
 .social-buttons a {
 	padding-right: 20px;
 	margin-left: 20px;
 	color: #fff;
-	background-image: linear-gradient(to left, #00d2ff, #3a7bd5);
+	background: linear-gradient(to left, #00d2ff, #3a7bd5);
 	opacity: 1;
 	border-radius: 0 8px 0 8px;
 	box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.4);
@@ -122,13 +131,13 @@ footer {
 	text-align: center;
 	padding: 20px 0 10px 0;
 	color: white;
-	background-image: linear-gradient(to right, #00d2ff, #3a7bd5);
-	font-family: 'Maven Pro', sans-serif;
+	background: linear-gradient(to right, #00d2ff, #3a7bd5);
+	font-family: "Maven Pro", sans-serif;
 }
 
 footer a {
 	color: white;
-	font-family: 'Maven Pro', sans-serif;
+	font-family: "Maven Pro", sans-serif;
 }
 
 @media screen and (max-width: 980px) {
@@ -148,13 +157,16 @@ footer a {
 .title-logo {
 	display: none;
 }
+
 .logo-mobile {
 	display: inline-block;
 	margin: 30px 0 0 20px;
 }
+
 .img-responsive {
 	margin:30px 0;
 }
+
 .title-featured {
 	margin: 40px 0;
 }
